@@ -1,3 +1,6 @@
+#include<iostream>
+using namespace std;
+
 class Solution {
 public:
     const int val[13] = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
@@ -10,3 +13,10 @@ public:
         return ans;
     }
 };
+
+int main(){
+    solution s;
+    int n;
+    cin>>n;
+    s.string intToRoman(n);
+}
