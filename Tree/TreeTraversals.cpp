@@ -1,25 +1,7 @@
-/*Inorder traversal 
-Left - Root - Right
-First, visit all the nodes in the left subtree
-Then the root node
-Visit all the nodes in the right subtree
-
-Preorder traversal
-Root - Left - Right
-Visit root node
-Visit all the nodes in the left subtree
-Visit all the nodes in the right subtree
-
-Postorder traversal
-Left - Right - Root
-Visit all the nodes in the left subtree
-Visit all the nodes in the right subtree
-Visit the root node*/
-
 #include <iostream>
 using namespace std;
 
-class Node {                                         //Defining new node
+class Node {                                          //Defining new node
   public:
       int data;
       Node *left, *right;
@@ -31,7 +13,7 @@ class Node {                                         //Defining new node
 };
 
 // Inorder traversal
-void inorderTraversal(Node* node) {
+void inorderTraversal(Node* node) {                    // Left - Root - Right
   if (node == NULL)
     return;
 
@@ -40,8 +22,8 @@ void inorderTraversal(Node* node) {
   inorderTraversal(node->right);                       // now recur on right child
 }
 
-// Preorder traversal
-void preorderTraversal(Node* node) {
+// Preorder traversal 
+void preorderTraversal(Node* node) {                   // Root - Left - Right
   if (node == NULL)
     return;
 
@@ -51,7 +33,7 @@ void preorderTraversal(Node* node) {
 }
 
 // Postorder traversal
-void postorderTraversal(Node* node) {
+void postorderTraversal(Node* node) {                 // Left - Right - Root
   if (node == NULL)
     return;
 
