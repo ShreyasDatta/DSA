@@ -22,7 +22,7 @@ using namespace std;
 class Node {                                         //Defining new node
   public:
       int data;
-      struct Node *left, *right;
+      Node *left, *right;
       
       Node(int data) {
         this->data = data;
