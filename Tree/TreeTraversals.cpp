@@ -1,14 +1,17 @@
-/*Inorder traversal
+/*Inorder traversal 
+Left - Root - Right
 First, visit all the nodes in the left subtree
 Then the root node
 Visit all the nodes in the right subtree
 
 Preorder traversal
+Root - Left - Right
 Visit root node
 Visit all the nodes in the left subtree
 Visit all the nodes in the right subtree
 
 Postorder traversal
+Left - Right - Root
 Visit all the nodes in the left subtree
 Visit all the nodes in the right subtree
 Visit the root node*/
@@ -16,18 +19,19 @@ Visit the root node*/
 #include <iostream>
 using namespace std;
 
-struct Node {                                         //Defining new node
-  int data;
-  struct Node *left, *right;
-  
-  Node(int data) {
-    this->data = data;
-    left = right = NULL;
+class Node {                                         //Defining new node
+  public:
+      int data;
+      struct Node *left, *right;
+      
+      Node(int data) {
+        this->data = data;
+        left = right = NULL;
   }
 };
 
 // Inorder traversal
-void inorderTraversal(struct Node* node) {
+void inorderTraversal(Node* node) {
   if (node == NULL)
     return;
 
@@ -37,7 +41,7 @@ void inorderTraversal(struct Node* node) {
 }
 
 // Preorder traversal
-void preorderTraversal(struct Node* node) {
+void preorderTraversal(Node* node) {
   if (node == NULL)
     return;
 
@@ -47,7 +51,7 @@ void preorderTraversal(struct Node* node) {
 }
 
 // Postorder traversal
-void postorderTraversal(struct Node* node) {
+void postorderTraversal(Node* node) {
   if (node == NULL)
     return;
 
@@ -58,7 +62,7 @@ void postorderTraversal(struct Node* node) {
 
 
 int main() {
-  struct Node* root = new Node(1);
+  Node* root = new Node(1);
   root->left = new Node(12);
   root->right = new Node(9);
   root->left->left = new Node(5);
