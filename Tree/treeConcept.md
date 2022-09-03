@@ -1,23 +1,23 @@
-Types of Binary Tree
-1. Full Binary Tree
-2. Perfect Binary Tree
-3. Complete Binary Tree
-4. Degenerate or Pathological Tree
-5. Skewed Binary Tree
-6. Balanced Binary Tree
+# Types of Binary Tree
+- Full Binary Tree
+- Perfect Binary Tree
+- Complete Binary Tree
+- Degenerate or Pathological Tree
+- Skewed Binary Tree
+- Balanced Binary Tree
 
-Full/Strict Binary Tree
+`Full/Strict Binary Tree`
 Either 0 or 2 children for each node
-
+```
                                                        18
                 18                                   /    \  
              /     \                                15     20    
            15       30                             /  \   
           /  \     /   \                         40    50   
         40    50  100   40                      
+```
 
-
-Perfect Binary Tree Theorems
+`Perfect Binary Tree Theorems`
 A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
 A perfect binary tree of height h has 2h + 1 – 1 node.
 A perfect binary tree with n nodes has height log(n + 1) – 1 = Θ(ln(n)).
@@ -31,7 +31,7 @@ The average depth of a node in a perfect binary tree is Θ(ln(n)).
       40    50    100   40
 
 
-Complete Binary Tree
+`Complete Binary Tree`
 Every level must be completely filled
 All the leaf elements must lean towards the left.
 The last leaf element might not have a right sibling i.e. a complete binary tree doesn’t have to be a full binary tree.
@@ -45,12 +45,12 @@ The last leaf element might not have a right sibling i.e. a complete binary tree
     8   7  9 
 
 
-Degenerate Tree
+`Degenerate Tree`
 Every parent node must have exacyly one child node
 
-Skew Tree
-  Left Skew Tree - Degenerate tree skewed to left
-  Right Skew Tree - Degenerate tree skewed to Right
+`Skew Tree`
+- Left Skew Tree - Degenerate tree skewed to left
+- Right Skew Tree - Degenerate tree skewed to Right
   
       10                                           10
       /                                             \
