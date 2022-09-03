@@ -8,7 +8,8 @@
 
 `Full/Strict Binary Tree`
 Either 0 or 2 children for each node
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/full-binary-tree_0.png" width="200px"></img>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/full-binary-tree_0.png" width="100px"></img>
+
                                                        18
                 18                                   /    \  
              /     \                                15     20    
