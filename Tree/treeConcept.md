@@ -5,7 +5,7 @@ A general tree data structure has no restriction on the number of nodes. It mean
 
 ## 2. Binary tree  
 A node of a binary tree can have a maximum of two child nodes. In the given tree diagram, node B, D, and F are left children, while E, C, and G are the right children. 
-</br>
+</br></br>
 `Full/Strict Binary Tree`
 > Either 0 or 2 children for each node
 
