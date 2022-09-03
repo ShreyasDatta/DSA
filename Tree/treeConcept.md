@@ -8,14 +8,14 @@
 
 `Full/Strict Binary Tree`
 Either 0 or 2 children for each node
-`
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/full-binary-tree_0.png" width="200px"></img>
                                                        18
                 18                                   /    \  
              /     \                                15     20    
            15       30                             /  \   
           /  \     /   \                         40    50   
         40    50  100   40                      
-`
+
 
 `Perfect Binary Tree Theorems`
 A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
