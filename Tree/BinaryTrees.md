@@ -30,25 +30,7 @@ l = number of leaves
 
 ```
 // Checking if a binary tree is a full binary tree in C++
-
-#include <iostream>
-using namespace std;
-
-struct Node {
-  int key;
-  struct Node *left, *right;
-};
-
-// New node creation
-struct Node *newNode(char k) {
-  struct Node *node = (struct Node *)malloc(sizeof(struct Node));
-  node->key = k;
-  node->right = node->left = NULL;
-  return node;
-}
-
 bool isFullBinaryTree(struct Node *root) {
-  
   // Checking for emptiness
   if (root == NULL)
     return true;
@@ -62,20 +44,50 @@ bool isFullBinaryTree(struct Node *root) {
 
   return false;
 }
+```
 
-int main() {
-  struct Node *root = NULL;
-  root = newNode(1);
-  root->left = newNode(2);
-  root->right = newNode(3);
-  root->left->left = newNode(4);
-  root->left->right = newNode(5);
-  root->left->right->left = newNode(6);
-  root->left->right->right = newNode(7);
+## Balanced Binary Tree
 
-  if (isFullBinaryTree(root))
-    cout << "The tree is a full binary tree\n";
+<img src="https://user-images.githubusercontent.com/60508703/188283942-8120cf10-005c-4c49-abe3-f0386fe1bb48.png" width="100"></br>
+
+A balanced binary tree, also referred to as a height-balanced binary tree, is defined as a binary tree in which the height of the left and right subtree of any node differ by not more than 1.
+
+```
+// Check height balance
+bool checkHeightBalance(node *root, int *height) {
+  // Check for emptiness
+  int leftHeight = 0, rightHeight = 0;
+
+  int l = 0, r = 0;
+
+  if (root == NULL) {
+    *height = 0;
+    return 1;
+  }
+
+  l = checkHeightBalance(root->left, &leftHeight);
+  r = checkHeightBalance(root->right, &rightHeight);
+
+  *height = (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;
+
+  if (std::abs(leftHeight - rightHeight >= 2))
+    return 0;
+
   else
-    cout << "The tree is not a full binary tree\n";
+    return l && r;
 }
 ```
+
+## Binary Search Tree (BST)
+
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/bst-vs-not-bst.png" width="100"></br>
+
+Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.
+
+- It is called a binary tree because each tree node has a maximum of two children.
+- It is called a search tree because it can be used to search for the presence of a number in O(log(n)) time.
+
+The properties that separate a binary search tree from a regular binary tree is
+> All nodes of left subtree are less than the root node
+> All nodes of right subtree are more than the root node
+> Both subtrees of each node are also BSTs i.e. they have the above two properties
