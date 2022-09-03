@@ -19,3 +19,25 @@
 - `Height of a node:` The height of a node can be defined as the length of the longest path from the node to a leaf node of the tree.
 - `Height of the Tree:` The height of a tree is the length of the longest path from the root of the tree to a leaf node of the tree.
 - `Degree of a Node:` The total count of subtrees attached to that node is called the degree of the node. The degree of a leaf node must be 0. The degree of a tree is the maximum degree of a node among all the nodes in the tree.
+
+
+# Applications of Tree data structure:
+The applications of tree data structures are as follows:
+
+1. `Spanning trees:` It is the shortest path tree used in the routers to direct the packets to the destination.  
+
+2. `Binary Search Tree:` It is a type of tree data structure that helps in maintaining a sorted stream of data.  
+- Full Binary tree
+- Complete Binary tree
+- Skewed Binary tree
+- Stickily Binary tree
+- Extended Binary tree
+
+3. `Storing hierarchical data:` Tree data structures are used to store the hierarchical data, which means data is arranged in the form of order.  
+
+4. `Syntax tree:` The syntax tree represents the structure of the program’s source code, which is used in compilers.  
+
+5. `Trie:` It is a fast and efficient way for dynamic spell checking. It is also used for locating specific keys from within a set.  
+
+6. `Heap:` It is also a tree data structure that can be represented in a form of an array. It is used to implement priority queues.  
+
