@@ -1,5 +1,5 @@
 # Basic Terminologies In Tree Data Structure:
-<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201129105858/Tree-Basic-Terminology.png" width="600px"></img>
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201129105858/Tree-Basic-Terminology.png" width="700px"></img>
 
 - `Parent Node:` The node which is a predecessor of a node is called the parent node of that node. {2} is the parent node of {6, 7}.
 - `Child Node:` The node which is the immediate successor of a node is called the child node of that node. Examples: {6, 7} are the child nodes of {2}.
