@@ -1,5 +1,11 @@
 # Binary Trees
 
+`Applications of Binary Tree:`
+
+- In compilers, Expression Trees are used which is an application of binary tree.
+- Huffman coding trees are used in data compression algorithms.
+- Priority Queue is another application of binary tree that is used for searching maximum or minimum in O(1) time complexity.
+
 ## Full Binary Tree
 
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/full-binary-tree_0.png" width="100"></br>
