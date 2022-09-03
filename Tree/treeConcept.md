@@ -6,7 +6,7 @@ A general tree data structure has no restriction on the number of nodes. It mean
 ## 2. Binary tree  
 A node of a binary tree can have a maximum of two child nodes. In the given tree diagram, node B, D, and F are left children, while E, C, and G are the right children. 
 </br>
-- `Full/Strict Binary Tree`
+`Full/Strict Binary Tree`
 > Either 0 or 2 children for each node
 
                                                        18
@@ -17,7 +17,7 @@ A node of a binary tree can have a maximum of two child nodes. In the given tree
         40    50  100   40                      
 
 
-- `Perfect Binary Tree Theorems`
+`Perfect Binary Tree Theorems`
 > - A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
 > - A perfect binary tree of height h has 2h + 1 – 1 node.
 > - A perfect binary tree with n nodes has height log(n + 1) – 1 = Θ(ln(n)).
@@ -31,7 +31,7 @@ A node of a binary tree can have a maximum of two child nodes. In the given tree
       40    50    100   40
 
 
-- `Complete Binary Tree`
+`Complete Binary Tree`
 > - Every level must be completely filled
 > - All the leaf elements must lean towards the left.
 > - The last leaf element might not have a right sibling i.e. a complete binary tree doesn’t have to be a full binary tree.
@@ -45,10 +45,10 @@ A node of a binary tree can have a maximum of two child nodes. In the given tree
     8   7  9 
 ```
 
-- `Degenerate Tree`
+`Degenerate Tree`
 > - Every parent node must have exacyly one child node
 
-- `Skew Tree`
+`Skew Tree`
 > - Left Skew Tree - Degenerate tree skewed to left
 > - Right Skew Tree - Degenerate tree skewed to Right
 ```  
