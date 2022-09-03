@@ -51,7 +51,7 @@ Every parent node must have exacyly one child node
 `Skew Tree`
 - Left Skew Tree - Degenerate tree skewed to left
 - Right Skew Tree - Degenerate tree skewed to Right
-  
+```  
       10                                           10
       /                                             \
     20                                               20
@@ -60,3 +60,4 @@ Every parent node must have exacyly one child node
   /                                                     \
  40                                                      40
 Left-Skewed Binary Tree                               Right-Skewed Binary Tree
+```
