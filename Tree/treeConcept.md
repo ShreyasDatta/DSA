@@ -7,7 +7,7 @@
 - Balanced Binary Tree
 
 `Full/Strict Binary Tree`
-Either 0 or 2 children for each node
+- Either 0 or 2 children for each node
 
                                                        18
                 18                                   /    \  
@@ -18,11 +18,11 @@ Either 0 or 2 children for each node
 
 
 `Perfect Binary Tree Theorems`
-A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
-A perfect binary tree of height h has 2h + 1 – 1 node.
-A perfect binary tree with n nodes has height log(n + 1) – 1 = Θ(ln(n)).
-A perfect binary tree of height h has 2h leaf nodes.
-The average depth of a node in a perfect binary tree is Θ(ln(n)).
+- A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
+- A perfect binary tree of height h has 2h + 1 – 1 node.
+- A perfect binary tree with n nodes has height log(n + 1) – 1 = Θ(ln(n)).
+- A perfect binary tree of height h has 2h leaf nodes.
+- The average depth of a node in a perfect binary tree is Θ(ln(n)).
 
                18
            /       \  
@@ -32,9 +32,9 @@ The average depth of a node in a perfect binary tree is Θ(ln(n)).
 
 
 `Complete Binary Tree`
-Every level must be completely filled
-All the leaf elements must lean towards the left.
-The last leaf element might not have a right sibling i.e. a complete binary tree doesn’t have to be a full binary tree.
+- Every level must be completely filled
+- All the leaf elements must lean towards the left.
+- The last leaf element might not have a right sibling i.e. a complete binary tree doesn’t have to be a full binary tree.
 
              18
            /       \  
@@ -46,7 +46,7 @@ The last leaf element might not have a right sibling i.e. a complete binary tree
 
 
 `Degenerate Tree`
-Every parent node must have exacyly one child node
+- Every parent node must have exacyly one child node
 
 `Skew Tree`
 - Left Skew Tree - Degenerate tree skewed to left
