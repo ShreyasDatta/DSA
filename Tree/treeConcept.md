@@ -1,10 +1,4 @@
-# Types of Binary Tree
-- Full Binary Tree
-- Perfect Binary Tree
-- Complete Binary Tree
-- Degenerate or Pathological Tree
-- Skewed Binary Tree
-- Balanced Binary Tree
+# Types of Trees
 
 ## General tree
 A general tree data structure has no restriction on the number of nodes. It means that a parent node can have any number of child nodes.  
@@ -50,16 +44,6 @@ A node of a binary tree can have a maximum of two child nodes. In the given tree
     8   7  9 
 ```
 
-## Balanced tree
-If the height of the left sub-tree and the right sub-tree is equal or differs at most by 1, the tree is known as a balanced tree.  
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220614001043/upload.png" width="100px"></img>
-
-## Binary search tree
-As the name implies, binary search trees are used for various searching and sorting algorithms. The examples include AVL tree and red-black tree. It is a non-linear data structure. It shows that the value of the left node is less than its parent, while the value of the right node is greater than its parent.
-
-- `AVL Tree`
-- `Red Black-Tree`
-
 `Degenerate Tree`
 - Every parent node must have exacyly one child node
 
@@ -76,3 +60,13 @@ As the name implies, binary search trees are used for various searching and sort
  40                                                      40
 Left-Skewed Binary Tree                               Right-Skewed Binary Tree
 ```
+
+## Balanced tree
+If the height of the left sub-tree and the right sub-tree is equal or differs at most by 1, the tree is known as a balanced tree.  
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220614001043/upload.png" width="100px"></img>
+
+## Binary search tree
+As the name implies, binary search trees are used for various searching and sorting algorithms. The examples include AVL tree and red-black tree. It is a non-linear data structure. It shows that the value of the left node is less than its parent, while the value of the right node is greater than its parent.
+
+- `AVL Tree`
+- `Red Black-Tree`
