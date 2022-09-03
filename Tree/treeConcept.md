@@ -35,7 +35,7 @@
 - Every level must be completely filled
 - All the leaf elements must lean towards the left.
 - The last leaf element might not have a right sibling i.e. a complete binary tree doesn’t have to be a full binary tree.
-
+```
              18
            /       \  
          15         30  
@@ -43,7 +43,7 @@
       40    50    100   40
      /  \   /
     8   7  9 
-
+```
 
 `Degenerate Tree`
 - Every parent node must have exacyly one child node
