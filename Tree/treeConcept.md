@@ -64,7 +64,7 @@ Left-Skewed Binary Tree                               Right-Skewed Binary Tree
 
 ## 3. Balanced tree
 If the height of the left sub-tree and the right sub-tree is equal or differs at most by 1, the tree is known as a balanced tree.  
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220614001043/upload.png" width="100px"></img>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220614001043/upload.png" width="200px"></img>
 
 ## 4. Binary search tree
 As the name implies, binary search trees are used for various searching and sorting algorithms. The examples include AVL tree and red-black tree. It is a non-linear data structure. It shows that the value of the left node is less than its parent, while the value of the right node is greater than its parent.
