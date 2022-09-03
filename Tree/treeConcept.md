@@ -19,7 +19,7 @@ A node of a binary tree can have a maximum of two child nodes. In the given tree
 
 `Perfect Binary Tree Theorems`
 > - A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
-> - A perfect binary tree of height h has 2h + 1 – 1 node.
+> - A perfect binary tree of height h has 2(h + 1) – 1 node.
 > - A perfect binary tree with n nodes has height log(n + 1) – 1 = Θ(ln(n)).
 > - A perfect binary tree of height h has 2h leaf nodes.
 > - The average depth of a node in a perfect binary tree is Θ(ln(n)).
