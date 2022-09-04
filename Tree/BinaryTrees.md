@@ -80,7 +80,7 @@ bool checkHeightBalance(node *root, int *height) {
 
 ## Binary Search Tree (BST)
 
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/bst-vs-not-bst.png" width="100"></br>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/bst-vs-not-bst.png" width="300"></br>
 
 Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.
 
