@@ -16,7 +16,7 @@ bf=hl-hr = {-1,0,1}
 - In rotation operation, the positions of the nodes of a subtree are interchanged.
 - Rotations done only on 3 node tree
 - Types of rotations:
--- Left Rotate
--- Right Rotate
--- Left-Right
--- Right-Left Rotate
+> - Left Rotate
+> - Right Rotate
+> - Left-Right
+> - Right-Left Rotate
