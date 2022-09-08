@@ -15,6 +15,7 @@ Red-Black tree is a self-balancing binary search tree in which each node contain
 <img src="https://cdn.programiz.com/sites/tutorial2program/files/red-black-tree_0.png" width="400px"></img>
 
 `How the red-black tree maintains the property of self-balancing?`
+</br>
 *The red-black color is meant for balancing the tree.*
 *The limitations put on the node colors ensure that any simple path from the root to a leaf is not more than twice as long as any other such path.*
 *It helps in maintaining the self-balancing property of the red-black tree.*
