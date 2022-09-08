@@ -24,6 +24,7 @@ G = {V, E}
 ## Graph Representation
 
 Graphs are commonly represented in two ways:
+</br>
 `Adjacency Matrix` 
 - An adjacency matrix is a 2D array of V x V vertices. Each row and column represent a vertex.
 - If the value of any element a[i][j] is 1, it represents that there is an edge connecting vertex i and vertex j.
