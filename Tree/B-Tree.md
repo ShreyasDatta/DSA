@@ -21,4 +21,4 @@
 - The root has at least 2 children and contains a minimum of 1 key.
 - If `n ≥ 1`, then for any n-key B-tree of height h and minimum degree `t ≥ 2`, `h ≥ logt (n+1)/2`.
 
-<img src='https://cdn.programiz.com/sites/tutorial2program/files/B-tree.png' width="200px"></img>
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/B-tree.png' width="400px"></img>
