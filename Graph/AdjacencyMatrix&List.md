@@ -12,3 +12,15 @@
 `Cons of Adjacency Matrix`
 > - The VxV space requirement of the adjacency matrix makes it a memory hog. Graphs out in the wild usually don't have too many connections and this is the major reason why adjacency lists are the better choice for most tasks.
 > - While basic operations are easy, operations like inEdges and outEdges are expensive when using the adjacency matrix representation.
+
+# Adjacency List
+
+- An adjacency list represents a graph as an array of linked lists. 
+- The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex.
+
+`Pros of Adjacency List`
+- An adjacency list is efficient in terms of storage because we only need to store the values for the edges. 
+- For a sparse graph with millions of vertices and edges, this can mean a lot of saved space.
+- It also helps to find all the vertices adjacent to a vertex easily.
+`Cons of Adjacency List`
+- Finding the adjacent list is not quicker than the adjacency matrix because all the connected nodes must be first explored to find them.
