@@ -1,6 +1,6 @@
 # B+ Tree
 
-<a href="[url](https://www.programiz.com/dsa/b-plus-tree)">More...</a>
+<a href="https://www.programiz.com/dsa/b-plus-tree">More...</a>
 
 A B+ tree is an advanced form of a self-balancing tree in which all the values are present in the leaf level.
 
