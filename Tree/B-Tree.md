@@ -5,7 +5,7 @@
 - B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree.
 - It is also known as a height-balanced m-way tree.
 
-<img src='https://cdn.programiz.com/sites/tutorial2program/files/b-tree.png' width="200px"></img>
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/b-tree.png' width="400px"></img>
 
 - The need for B-tree arose with the rise in the need for lesser time in accessing the physical storage media like a hard disk. 
 - The secondary storage devices are slower with a larger capacity. 
@@ -20,3 +20,5 @@
 - All leaves have the same depth (i.e. height-h of the tree).
 - The root has at least 2 children and contains a minimum of 1 key.
 - If `n ≥ 1`, then for any n-key B-tree of height h and minimum degree `t ≥ 2`, `h ≥ logt (n+1)/2`.
+
+<img src='https://cdn.programiz.com/sites/tutorial2program/files/B-tree.png' width="200px"></img>
