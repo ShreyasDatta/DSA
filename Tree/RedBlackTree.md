@@ -2,7 +2,7 @@
 
 <a href="https://www.programiz.com/dsa/red-black-tree">More...</a>
 
-- Red-Black tree is a self-balancing binary search tree in which each node contains an extra bit for denoting the color of the node, either red or black.
+Red-Black tree is a self-balancing binary search tree in which each node contains an extra bit for denoting the color of the node, either red or black.
 
 `A red-black tree satisfies the following properties:`
 
