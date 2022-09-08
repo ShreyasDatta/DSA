@@ -6,7 +6,7 @@ More precisely, a graph is a data structure (V, E) that consists of
 - A collection of vertices V
 - A collection of edges E, represented as ordered pairs of vertices (u,v)
 
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-vertices-edges_0.png" width="200px"></img>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/graph-vertices-edges_0.png" width="400px"></img>
 ```
 In this graph,
 
@@ -27,9 +27,9 @@ Graphs are commonly represented in two ways:
 `Adjacency Matrix` 
 - An adjacency matrix is a 2D array of V x V vertices. Each row and column represent a vertex.
 - If the value of any element a[i][j] is 1, it represents that there is an edge connecting vertex i and vertex j.
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/adjacency-matrix_1.png" width="200px"></img>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/adjacency-matrix_1.png" width="400px"></img>
 
 `Adjacency List`
 - An adjacency list represents a graph as an array of linked lists.\
 - The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex.
-<img src="https://cdn.programiz.com/sites/tutorial2program/files/adjacency-list.png" width="200px"></img>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/adjacency-list.png" width="400px"></img>
