@@ -19,8 +19,9 @@
 - The index of the array represents a vertex and each element in its linked list represents the other vertices that form an edge with the vertex.
 
 `Pros of Adjacency List`
-- An adjacency list is efficient in terms of storage because we only need to store the values for the edges. 
-- For a sparse graph with millions of vertices and edges, this can mean a lot of saved space.
-- It also helps to find all the vertices adjacent to a vertex easily.
+> - An adjacency list is efficient in terms of storage because we only need to store the values for the edges. 
+> - For a sparse graph with millions of vertices and edges, this can mean a lot of saved space.
+> - It also helps to find all the vertices adjacent to a vertex easily.
+
 `Cons of Adjacency List`
-- Finding the adjacent list is not quicker than the adjacency matrix because all the connected nodes must be first explored to find them.
+> - Finding the adjacent list is not quicker than the adjacency matrix because all the connected nodes must be first explored to find them.
